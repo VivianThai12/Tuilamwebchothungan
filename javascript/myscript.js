@@ -49,7 +49,7 @@ theTime.add({
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
 		// Nội dung của nút bên dưới
-		document.querySelector('.container .sup').innerHTML= "Nhịp tim đập nhanh ơi là nhanh " + (thePercent+899);
+		document.querySelector('.container .sup').innerHTML= "Tim anh đang đập nhanh ơi là nhanh  " + (thePercent+899);
 	}
 });
 theTime.add({
